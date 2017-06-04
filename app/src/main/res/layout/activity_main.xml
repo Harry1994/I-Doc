@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.idoc.i_doc.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/main_hello_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Harry!"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What do you want to examine today?"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/LightGray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_blood"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/BackgroundBlue"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Test"
+                    android:textColor="@color/BlueBlack"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:drawableBottom="@drawable/blood"
+                    android:drawablePadding="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_temperature"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/BackgroundBlue"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Body Temperature"
+                    android:textColor="@color/BlueBlack"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:drawableBottom="@drawable/temperature"
+                    android:drawablePadding="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layout_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/BackgroundBlue"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Pressure"
+                    android:textColor="@color/BlueBlack"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:drawableBottom="@drawable/pressure"
+                    android:drawablePadding="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_diabetes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/BackgroundBlue"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diabetes"
+                    android:textColor="@color/BlueBlack"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:drawableBottom="@drawable/glucose"
+                    android:drawablePadding="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

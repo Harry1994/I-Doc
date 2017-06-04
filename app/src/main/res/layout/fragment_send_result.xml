@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your doctor's email:"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/send_result_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mydoctor@gmail.com"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/send_result_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textColor="@color/BlueBlack"
+        android:background="@color/BackgroundBlue"/>
+
+</LinearLayout>

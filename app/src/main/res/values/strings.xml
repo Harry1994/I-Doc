@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">I-Doc</string>
+
+    <!--Ardutooth Strings-->
+    <string name="bt_not_found">It seems that your device don\'t support bluetooth.</string>
+    <string name="bt_off">Currently bluetooth is off. Turn it on and pair it with your arduino.</string>
+    <string name="turn_on_bt">Turn on and pair</string>
+    <string name="fatal_error">Fatal Error</string>
+    <string name="error">Fatal Error</string>
+    <string name="warning">Warning</string>
+    <string name="ok">Ok</string>
+    <string name="scanning">Scanning...</string>
+    <string name="close_app">Close App</string>
+    <string name="devices_found">Devices Found</string>
+    <string name="wrong_socket">Something went wrong while creating socket</string>
+    <string name="wrong_connecting">Something went wrong while connecting</string>
+    <string name="wrong_pairing">Something went wrong while pairing</string>
+    <string name="wrong_unpairing">Something went wrong while unpairing</string>
+    <string name="error_passing_data">An error occured while passing data</string>
+    <string name="connected">Connected</string>
+</resources>

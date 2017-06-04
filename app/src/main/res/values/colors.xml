@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b30000</color>
+    <color name="colorPrimaryDark">#940000</color>
+    <color name="colorAccent">#cf0000</color>
+    <color name="MainBlue">#31c4eb</color>
+    <color name="DarkBlue">#27acd1</color>
+    <color name="LightBlue">#8dd4e8</color>
+    <color name="BackgroundBlue">#daeaef</color>
+    <color name="MainGray">#95a2aa</color>
+    <color name="DarkGray">#4c616b</color>
+    <color name="LightGray">#c0d4de</color>
+    <color name="LightBackgroundGray">#f3f6f8</color>
+    <color name="DarkBackgroundGray">#e6ecf0</color>
+    <color name="MainRed">#f0535b</color>
+    <color name="DarkRed">#dc4b52</color>
+    <color name="BackgroundRed">#ffd8da</color>
+    <color name="MainGreen">#72bf66</color>
+    <color name="DarkGreen">#529c46</color>
+    <color name="BackgroundGreen">#caedc5</color>
+    <color name="DarkBrown">#9d7831</color>
+    <color name="BackgroundBrown">#ffe6b7</color>
+    <color name="BlueBlack">#2b3346</color>
+    <color name="Orange">#ff5a00</color>
+    <color name="Pink">#e92265</color>
+    <color name="Purple">#9b25b7</color>
+    <color name="DeepPurple">#6638bf</color>
+    <color name="Cyan">#03bad9</color>
+    <color name="Teal">#069788</color>
+    <color name="Lime">#cedc00</color>
+    <color name="Yellow">#fec200</color>
+    <color name="BlueGray">#607d8d</color>
+    <color name="Indigo">#3e4ebd</color>
+</resources>
